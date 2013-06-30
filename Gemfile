@@ -5,7 +5,7 @@ gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
 group :development,:test do
-	gem 'repec-rails'
+	gem 'rspec-rails'
 	gem 'sqlite3'
 end
 
@@ -29,7 +29,7 @@ gem 'jquery-rails'
 
 group :test do
 
-gem 'capabara'
+gem 'capybara','1.1.2'
 end
 
 group :production do
